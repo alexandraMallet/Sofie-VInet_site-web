@@ -1,0 +1,36 @@
+* {
+    font-family: montserrat;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+  
+    height: 160px;
+    width: 100%;
+    background-image: url("../images_documents/banniere.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul a {
+    color: red;
+    margin-left: 30px;
+    margin-right: 10px;
+}
