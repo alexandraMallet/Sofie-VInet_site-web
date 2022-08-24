@@ -1,5 +1,13 @@
+/* tablette : 768
+smartphone : 375 */
+/*responsive*/
+
 * {
     font-family: montserrat;
+}
+
+h2 {
+    margin-top: 30px;
 }
 
 a {
@@ -11,26 +19,62 @@ ul {
 }
 
 nav {
-  
-    height: 160px;
+
+    height: 150px;
     width: 100%;
     background-image: url("../images_documents/banniere.jpg");
     background-position: right;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
 }
 
 
+
 nav ul {
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 45px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
 nav ul a {
+    color: black;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+@media screen and (min-width : 635px) {
+    nav ul {
+        width: 80%;
+        padding-top: 10px;
+        padding-left: 50px;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul a {
+        color: red;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+}
+
+.demarche {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.cv a {
     color: red;
-    margin-left: 30px;
-    margin-right: 10px;
+    padding-left: 20px;
+}
+
+.cv:hover {
+    border: solid 2px red;
+    border-radius: 30px;
 }
