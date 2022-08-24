@@ -63,6 +63,14 @@ nav ul a {
     }
 }
 
+.actualites {
+    margin-left: 30px;
+}
+
+.actualites img {
+    margin-left: 50px;
+}
+
 .demarche {
     padding-left: 20px;
     padding-right: 20px;
