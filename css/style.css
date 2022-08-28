@@ -82,11 +82,7 @@ nav ul a {
     border: solid 2px red;
     border-radius: 30px;
 }
-/*
-#affiche_filosa {
-    margin-left: 50px;
-}
-*/
+
 
 .contact {
     margin-top: 100px;
@@ -108,4 +104,57 @@ img {
 .portrait img {
     padding-top: 20px;
     padding-right: 20px;
+}
+
+.madame_filosa_menu_1 ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.madame_filosa_menu_1:hover ul {
+    display: block;
+    width: auto;
+}
+
+.madame_filosa_menu_1 ul a {
+    margin: 0;
+    padding-top: 10px;
+    color: black;
+}
+
+.coiffeuse_presentation article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width : 635px) {
+    .coiffeuse_presentation {
+        display: flex;
+    }
+
+    .coiffeuse_presentation article {
+        flex-wrap: wrap;
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+}
+
+iframe {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 560px;
+}
+
+.filosa_portrait {
+    margin: 20px;
+}
+
+figcaption {
+    font-size: x-small;
 }
